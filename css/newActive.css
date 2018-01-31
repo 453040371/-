@@ -1,0 +1,41 @@
+#activeName,
+#type {
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.widget-body {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#activeDesc {
+    width: 100%;
+    resize: none;
+    border-radius: 5px!important;
+}
+
+#activeForm input {
+    border-radius: 5px!important;
+}
+
+#activeForm input[type="file"] {
+    opacity: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.form-group img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+
+.form-group:nth-last-child(1) {
+    text-align: center
+}

@@ -1,0 +1,51 @@
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    line-height: 44px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: transparent;
+}
+
+.fc-border-separate thead tr,
+.table thead tr {
+    background-color: #999;
+}
+
+.numeric {
+    text-align: center;
+}
+
+th,
+tr,
+td {
+    text-align: center;
+}
+
+tr {
+    background-color: #fff;
+}
+
+tr:hover {
+    background-color: #58cedf;
+}
+
+.undercarriage {
+    background-color: #eee;
+}
+
+#editabledatatable_filter {
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#editabledatatable_filter .btn {
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 5px 20px;
+}

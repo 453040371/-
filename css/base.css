@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red {
+    color: red;
+}
+
+.mRight10 {
+    margin-right: 10px;
+}
+
+.page-sidebar .sidebar-menu .submenu li.active>a {
+    background-color: #aaa;
+}
