@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 974px;
+    position: relative;
+}
+
+.page-container {
+    min-height: 929px;
+}
+
+body:before {
+    background-color: #fff;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
 .red {
     color: red;
 }
@@ -12,6 +35,111 @@
     margin-right: 10px;
 }
 
+.page-sidebar .sidebar-menu {
+    background-color: #333;
+}
+
+.page-sidebar .sidebar-menu .submenu li a:hover {
+    color: #fff;
+}
+
 .page-sidebar .sidebar-menu .submenu li.active>a {
-    background-color: #aaa;
+    color: #fff;
+    background-color: #333;
+}
+
+.page-sidebar .sidebar-menu a .menu-expand {
+    color: #fff;
+}
+
+.page-sidebar .sidebar-menu li,
+.page-sidebar .sidebar-menu li:hover,
+.page-sidebar .sidebar-menu li:focus {
+    background-color: #333;
+}
+
+
+/* .page-sidebar.menu-compact {
+    width: 100%;
+} */
+
+.support {
+    position: fixed;
+    bottom: 10px;
+    z-index: 100;
+    width: 219px;
+    color: #b0b0b0;
+    text-align: center;
+}
+
+.page-sidebar {
+    min-height: 100%;
+}
+
+.page-sidebar.menu-compact .support {
+    display: none;
+}
+
+
+/* 左侧菜单 */
+
+.page-sidebar .sidebar-menu>li.open>a {
+    background-color: #333;
+    color: #fff;
+}
+
+.page-sidebar .sidebar-menu>li>a,
+.page-sidebar .sidebar-menu>li>a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.page-sidebar:before {
+    background-color: #333;
+}
+
+.page-sidebar .sidebar-menu li.open {
+    background-color: #333;
+    color: #fff;
+}
+
+.page-sidebar .sidebar-menu a {
+    color: #b0b0b0;
+}
+
+.page-sidebar .sidebar-menu .submenu li {
+    background-color: #333;
+}
+
+.breadcrumb>li,
+.breadcrumb>li.active {
+    color: #000;
+    font-weight: 700;
+}
+
+.left ul li.active a {
+    font-weight: 700;
+}
+
+.page-content .page-top p {
+    font-weight: 700;
+    padding-left: 0;
+}
+.page-sidebar.menu-compact .sidebar-menu>li>.submenu li:hover{
+    background-color: #333;
+    color: #fff;
+}
+.page-sidebar.menu-compact .sidebar-menu>li>a:hover{
+    background-color: #333333;
+    color:#fff;
+}
+.page-sidebar.menu-compact .sidebar-menu>li>a .menu-text{
+    color:#fff;
+    background-color: #333;
+}
+.page-sidebar .sidebar-menu li.open>a{
+    color: #fff;
+}
+.page-sidebar.menu-compact .sidebar-menu>li:hover>a{
+    color: #fff;
 }
